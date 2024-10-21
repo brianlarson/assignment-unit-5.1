@@ -37,6 +37,9 @@ console.log('My full name is', fullName);
   - Console.log your first favorite food
   - Console.log your last favorite food
 */
+const foods = me.favThreeFoods;
+console.log(`My first favorite food is ${foods[0]}`);
+console.log(`My last favorite food is ${foods[foods.length - 1]}`);
 
 
 
